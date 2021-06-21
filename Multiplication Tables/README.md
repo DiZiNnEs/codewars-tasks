@@ -8,6 +8,6 @@
 ### 2 4 6
 ### 3 6 9
 
-###  -->[[1,2,3],[2,4,6],[3,6,9]]
+###  --> [`[1,2,3],[2,4,6],[3,6,9]]`
 
 ###  Each value on the table should be equal to the value of multiplying the number in its first row times the number in its first column.
