@@ -1,0 +1,14 @@
+{
+  "name": "javacript-tasks",
+  "version": "1.0.0",
+  "description": "Tasks on JavaScript and TypeScript",
+  "main": "no",
+  "repository": "false",
+  "author": "DiZiNnEs",
+  "license": "false",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
