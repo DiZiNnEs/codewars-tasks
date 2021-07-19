@@ -1,7 +1,7 @@
-export const isUpperCase = (str: string): boolean => {
-  const arrayString: string[] = str.split('').filter(char => char != ' ');
-  return arrayString.every((char) => char != char.toLowerCase())
-}
+export const isUpperCase = (str: string): boolean =>
+  Array.from(str)
+    .filter(char => char != ' ')
+    .every(char => char != char.toLowerCase())
 
 console.log(isUpperCase('hELLO I AM DONALD'))
 
