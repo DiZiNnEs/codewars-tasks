@@ -7,3 +7,6 @@ export const repeater = (str: string, n: number): string => {
 }
 
 console.log(repeater('a', 5))
+
+// best solution
+const repeat2 = (str: string, n: number): string => str.repeat(n)
