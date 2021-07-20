@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Tasks on TypeScript",
   "main": "no",
+  "scripts": {
+    "start": "npx ts-node /home/dizinnes/WebstormProjects/codewars-tasks/typescript/folder/script.ts"
+  },
   "repository": "false",
   "author": "DiZiNnEs",
   "license": "false",
