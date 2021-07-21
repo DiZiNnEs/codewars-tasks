@@ -9,3 +9,8 @@ const maxNumber = (n: number): number => {
 }
 
 console.log(maxNumber(2134542329))
+
+// good solution
+export function maxNumber2(n: number): number {
+  return parseInt(n.toString().split('').map(Number).sort((a,b) => b - a ).join(''))
+}
