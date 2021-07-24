@@ -9,4 +9,13 @@ export function maxTriSum(nums: number[]) {
 
 }
 
-console.log(maxTriSum([3, 2, 6, 8, 2, 3, 10,49, 50, 51, 11, 13, ]))
+
+export function maxTriSum2(nums: number[]) {
+  return nums
+    .filter((number, index) => nums.indexOf(number) === index)
+    .sort((a, b) => a - b)
+    .slice(Math.max(nums.length - 3, 0))
+    .reduce((a, b) => a + b)
+}
+
+console.log(maxTriSum2([1, 2, 3, 4]))
