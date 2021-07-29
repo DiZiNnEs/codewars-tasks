@@ -1,3 +1,3 @@
 # Codewars tasks
 
-### tasks on Python3, JavaScript and TypeScript
+### Codewars tasks on Python3, JavaScript and TypeScript
